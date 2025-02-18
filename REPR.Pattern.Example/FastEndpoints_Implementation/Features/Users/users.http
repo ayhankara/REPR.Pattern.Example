@@ -1,0 +1,18 @@
+@baseUrl = https://localhost:7038/api3/users
+
+PUT {{baseUrl}}/update-job
+Accept: application/json
+Content-Type: application/json
+{
+    "userId": 5,
+    "newJob": "Kepçe Operatörlüðü"
+}
+###
+POST {{baseUrl}}/create
+Accept: application/json
+Content-Type: application/json
+{
+    "name": "Gençay",
+    "surname": "Yýldýz",
+    "age": 33
+}
